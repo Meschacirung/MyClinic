@@ -70,13 +70,21 @@ input{
 }
 
 .percent{
-    height:150px;
-    width:150px;
+    height:170px;
+    width:170px;
     display:flex;
-    border:10px solid darken($color:$danger, $amount: 25);
+    border:8px solid #472e2e71;
     border-radius:50%;
     align-items:center;
     justify-content: center;
+}
+
+.steps{
+    position: absolute;
+    bottom:40px; 
+
+    color:rgb(226, 226, 226); 
+    font-size:15px;
 }
 
 .border-l{
@@ -88,7 +96,7 @@ input{
     cursor: pointer;
     border-bottom-right-radius:50px;
     &:hover{
-        background: darken($color:$danger, $amount: 5);
+        background: darken($color:$danger, $amount: 8);
         border-top-right-radius:50px;
     }
 }
