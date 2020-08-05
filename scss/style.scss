@@ -29,13 +29,6 @@ input{
 
     margin-right:10px;
     margin-bottom:10px;
-
-    &:hover{
-        .dismiss{
-            margin-right:0;
-            right:10px;
-        }
-    }
 }
 
 .next-btn{
@@ -60,11 +53,9 @@ input{
 }
 
 .dismiss{
-    position: absolute;
     right:0;
 
     transition: all .3s ease-out;
-    margin-right:-40px;
 
     cursor: pointer;
 
